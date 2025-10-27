@@ -1,17 +1,15 @@
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Categories from './components/Categories';
-import FeaturedProducts from './components/FeaturedProducts';
 import Footer from './components/Footer';
+import CartSection from './components/CartSection';
+import AdminSection from './components/AdminSection';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-gray-50 text-gray-900">
       <Navbar />
       <main>
-        <Hero />
-        <Categories />
-        <FeaturedProducts />
+        <CartSection />
+        <AdminSection />
       </main>
       <Footer />
     </div>
